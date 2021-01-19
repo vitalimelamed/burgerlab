@@ -1,2 +1,1 @@
-# NewsGrid
-NewsGrid portfolio project website
+Burger Labs portfolio project website incorporating Bootstrap.
