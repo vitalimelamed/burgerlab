@@ -1,0 +1,29 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+/* Custom CSS */
+.navbar {
+    background-color: #222222;
+}
+.logo {
+    width: 3rem;
+    padding: 0.1rem;
+    margin-right: 1rem;
+}
+.featureCard {
+    background-color: #222222;
+    border: none;
+}
+.featureColour {
+    background-color: #43a047;
+    color: #ffffff;
+}
+.featureColour:hover {
+    background-color: #265628;
+    color: #ffffff;
+}
+.footer {
+    line-height: 5rem;
+    font-size: 1rem;
+}
