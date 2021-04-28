@@ -3,7 +3,6 @@
 ::after {
     box-sizing: border-box;
 }
-/* Smooth scroll */
 html {
     scroll-behavior: smooth;
 }
@@ -12,26 +11,43 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Custom CSS */
+/* General styles */
 .navbar {
     background-color: #222222;
 }
-.logo {
-    width: 3rem;
-    padding: 0.1rem;
-    margin-right: 1rem;
+.navbar-toggler {
+    border: none;
+    padding: 0;
 }
+.navbar-toggler:focus {
+    outline: none;
+}
+.navbar-brand {
+    color: #f9f9f9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-dark .nav-item.nav-link {
+    color: #f9f9f9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-brand:focus, .navbar-brand:hover, .navbar-dark .nav-item.nav-link:focus, .navbar-dark .nav-item.nav-link:hover {
+    color: #f9f9f9;
+    opacity: 0.75;
+    }
 .featureCard {
     background-color: #222222;
     border: none;
 }
 .featureColour {
     background-color: #43a047;
-    color: #ffffff;
+    color: #f9f9f9;
 }
+.featureColour:focus,
 .featureColour:hover {
-    background-color: #265628;
-    color: #ffffff;
+    color: #f9f9f9;
+    opacity: 0.90;
 }
 .footer {
     line-height: 5rem;
