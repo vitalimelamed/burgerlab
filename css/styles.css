@@ -3,53 +3,91 @@
 ::after {
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
-/* General styles */
-.navbar {
-    background-color: #222222;
+/* general styles */
+h3 {
+    font-size: 1.25rem;
 }
-.navbar-toggler {
-    border: none;
-    padding: 0;
+.gray {
+    color: #b1b1b1;
 }
-.navbar-toggler:focus {
-    outline: none;
+.nav-wrapper {
+    background-color: #222;
 }
-.navbar-brand {
+nav .brand-logo {
+    color: #f9f9f9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.nav-wrapper ul li a {
     color: #f9f9f9;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.navbar-dark .nav-item.nav-link {
+.nav-wrapper ul li a:focus, .nav-wrapper ul li a:hover {
+    opacity: 0.8;
+}
+.sidenav {
+    background-color: #222;
+}
+.sidenav li a {
     color: #f9f9f9;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.navbar-brand:focus, .navbar-brand:hover, .navbar-dark .nav-item.nav-link:focus, .navbar-dark .nav-item.nav-link:hover {
-    color: #f9f9f9;
-    opacity: 0.75;
-    }
-.featureCard {
-    background-color: #222222;
-    border: none;
+.sidenav li a:focus, .sidenav li a:hover {
+    opacity: 0.8;
 }
-.featureColour {
+.slider .indicators .indicator-item {
+    background-color: #b1b1b1;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #222;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom:1px solid #43a047;
+    -webkit-box-shadow:0 1px 0 0 #43a047;
+    box-shadow:0 1px 0 0 #43a047;
+}
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color:#43a047;
+}
+.btn {
+    color:#f9f9f9;
     background-color: #43a047;
+    border-radius: 5px;
+}
+.btn:focus {
+    background-color: #63cc68;
+}
+.btn:hover {
+    background-color: #63cc68;
+}
+.card {
+    background-color: #222;
     color: #f9f9f9;
 }
-.featureColour:focus,
-.featureColour:hover {
-    color: #f9f9f9;
-    opacity: 0.90;
+.card .card-title {
+    font-size: 1.25rem;
 }
-.footer {
-    line-height: 5rem;
-    font-size: 1rem;
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color:#43a047;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color:#63cc68;
+}
+.page-footer {
+    background-color: #222;
 }
