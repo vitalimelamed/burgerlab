@@ -6,12 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="css/styles.css" />
@@ -19,187 +15,139 @@
   </head>
   <body>
     <div class="container">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a href="#" class="navbar-brand"
-          >
-          Burgerlab</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a href="#" class="nav-item nav-link"
-              >Home</a
-            >
-            <a href="#about" class="nav-item nav-link"
-              >About</a
-            >
-            <a
-              href="#menu"
-              class="nav-item nav-link"
-              >Menu</a
-            >
-          </div>
-        </div>
-      </nav>
-      <!-- / Navbar -->
-      <!-- Carousel -->
-      <div class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/Outside-burgerlab-restaurant.jpg"
-              class="d-block img-fluid rounded-bottom"
-              alt="Outside burgerlab restaurant"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/Inside-burgerlab-restaurant.jpg"
-              class="d-block img-fluid rounded bottom"
-              alt="Inside burgerlab restaurant"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- / Carousel -->
-      <!-- Heading -->
-      <h2 class="display-4 mt-3" id="about">About</h2>
-      <hr />
-      <!-- / Heading -->
-      <!-- About content -->
-      <div class="row content">
-        <div class="col-sm-8 mb-3">
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vel
-            natus aperiam, enim qui at ratione, voluptates quia quibusdam sed a
-            debitis perspiciatis laboriosam possimus minus fugit dolore id rem
-            vero provident! Voluptas praesentium repudiandae eius sint ut,
-            officia placeat alias. Aspernatur voluptatem quibusdam odit dicta
-            exercitationem, non provident amet.
-          </p>
-          <form>
-            <div class="form-group row">
-              <label for="subject" class="col-sm-2 col-form-label"
-                >Subject</label
-              >
-              <div class="col-sm-10">
-                <input type="text" id="subject" class="form-control" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="email" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" id="email" class="form-control" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="message" class="col-sm-2 col-form-label"
-                >Message</label
-              >
-              <div class="col-sm-10">
-                <textarea
-                  id="message"
-                  class="form-control"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
-            <button type="button" class="btn btn-secondary float-right">
-              Email the chef
-            </button>
-          </form>
-        </div>
-        <div class="col-sm-4">
-          <h3 class="lead text-right text-muted">Meet the chef</h3>
-          <img class="img-fluid" src="img/Chef.jpg" alt="Chef" />
-        </div>
-      </div>
-      <!-- / About content -->
-      <!-- Daily specials -->
-      <h2 class="display-4 mt-3" id="menu">Menu</h2>
-      <hr />
-      <h3 class="lead text-right text-muted">Look at what we have</h3>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card featureCard text-white mb-3">
-            <img
-              src="img/Salad.jpg"
-              class="card-img-top img-fluid"
-              alt="Salad"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Salad</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                blanditiis.
-              </p>
-              <a href="#" class="btn featureColour">Ingredients</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card featureCard text-white mb-3">
-            <img
-              src="img/Angus-burger.jpg"
-              class="card-img-top img-fluid"
-              alt="Angus burger"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Angus burger</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                blanditiis.
-              </p>
-              <a href="#" class="btn featureColour">Ingredients</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card featureCard text-white mb-3">
-            <img
-              src="img/Grilled-chicken.jpg"
-              class="card-img-top img-fluid"
-              alt="Grilled chicken"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Grilled chicken</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                blanditiis.
-              </p>
-              <a href="#" class="btn featureColour">Ingredients</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- / Daily specials -->
-      <!-- Footer -->
-      <div class="row lead footer">
-        <div class="col-12 text-center">&copy; 2019</div>
-      </div>
-      <!-- / Footer -->
+      <!-- nav --> 
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Burgerlab</a>
+      <a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+        <li><a class="sidenav-close" href="#">Home</a></li>
+        <li><a class="sidenav-close" href="#about">About</a></li>
+        <li><a class="sidenav-close" href="#menu">Menu</a></li>
+  </ul>  
+      <!-- / nav -->
+      <!-- slider -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/Outside-burgerlab-restaurant.jpg" alt="Outside burgerlab restaurant">
+      </li>
+      <li>
+        <img src="img/Inside-burgerlab-restaurant.jpg" alt="Inside burgerlab restaurant">
+      </li>
+    </ul>
+  </div>
+      <!-- / slider -->
+      <h2 id="about">About</h2>
+      <div class="divider"></div>
+      <!-- about -->
+      <div class="row">
+        <div class="col s12 m7">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vel
+          natus aperiam, enim qui at ratione, voluptates quia quibusdam sed a
+          debitis perspiciatis laboriosam possimus minus fugit dolore id rem
+          vero provident! Voluptas praesentium repudiandae eius sint ut,
+          officia placeat alias. Aspernatur voluptatem quibusdam odit dicta
+          exercitationem, non provident amet.
+        </p>
+        <form>
+          <div class="row">
+            <div class="input-field col s12 m12">
+              <input id="subject" type="text" class="validate">
+              <label for="subject">Subject</label>
+            </div>
+            </div>
+          <div class="row">
+            <div class="input-field col s12 m12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m12">
+              <textarea id="textarea" class="materialize-textarea validate"></textarea>
+              <label for="textarea">Message</label>
+            </div>
+          </div>
+          <button class="btn" type="button">Email the chef</button>
+        </form>
+      </div>
+        <div class="col s12 m5">
+          <h3 class="right-align gray">Meet the chef</h3>
+          <img class="responsive-img" src="img/Chef.jpg" alt="Chef" />
+        </div>
+      </div>
+      <!-- / about -->
+      <!-- menu -->
+      <h2 id="menu">Menu</h2>
+     <div class="divider"></div>
+      <h3 class="right-align gray">Look at what we have</h3>
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/Salad.jpg" alt="Salad">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Salad</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#!">Ingredients</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/Angus-burger.jpg" alt="Angus burger">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Angus burger</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#!">Ingredients</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/Grilled-chicken.jpg" alt="Grilled chicken">
+              
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Grilled chicken</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#!">Ingredients</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / menu -->
+      <!-- footer -->
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container center-align gray">
+            &copy; 2019
+          </div>
+        </div>
+      </footer>
+      <!-- / footer -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
